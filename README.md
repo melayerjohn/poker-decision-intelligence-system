@@ -6,7 +6,7 @@ A poker-based game intelligence prototype built using **Unity + Pure C# architec
 
 ## Why This Project?
 
-Modern competitive gaming platforms often face challenges such as:
+Modern competitive gaming platforms face challenges such as:
 
 - Detecting suspicious gameplay behavior
 - Identifying bot-like decision patterns
@@ -20,8 +20,8 @@ This project explores how player intelligence systems can improve fairness, inte
 
 # Current System Architecture
 
-## 1. Core Poker Engine
-Built a pure C# poker engine with:
+## Core Poker Engine
+Built using pure C# logic:
 
 - Deck generation
 - Card distribution
@@ -29,34 +29,37 @@ Built a pure C# poker engine with:
 - Community card generation
 - Round lifecycle management
 
-### Example:
+### Example Output
+
 ```text
 P1: Ace of Spades, King of Hearts
 P2: Seven of Clubs, Queen of Diamonds
 
 Community:
-Ten of Hearts, Jack of Clubs, Two of Diamonds...
+Ten of Hearts, Jack of Clubs, Two of Diamonds
 ```
 
 ---
 
-## 2. Decision Intelligence Layer
+## Decision Intelligence Layer
 
 Players make dynamic decisions based on hand strength.
 
-### Supported Actions:
+### Supported Actions
 - Fold
 - Call
 - Raise
 
-### Example Decision Flow:
+### Decision Logic
+
 ```text
 Strong Hand → Raise
 Medium Hand → Call
 Weak Hand → Fold
 ```
 
-### Sample Decision Log:
+### Sample Decision Log
+
 ```json
 {
   "playerId": "P1",
@@ -69,21 +72,22 @@ Weak Hand → Fold
 
 ---
 
-# 3. Player Behavior Analytics
+# Player Behavior Analytics
 
 Tracks player behavior across multiple rounds.
 
-### Metrics:
+### Metrics
 - Aggression Score
 - Fold Rate
 - Play Style Classification
 
-### Player Types:
+### Player Types
 - Aggressive
 - Balanced
 - Passive
 
-### Example Output:
+### Sample Output
+
 ```text
 Player P1:
 Aggression → 0.4
@@ -98,16 +102,17 @@ Style → Aggressive
 
 ---
 
-# 4. Fairness Engine
+# Fairness Engine
 
-Detects suspicious player behavior.
+Detects suspicious player behavior patterns.
 
-### Current Detection Signals:
+### Current Detection Signals
 - Excessive aggressive behavior
 - High decision consistency
 - Risk score generation
 
-### Example Output:
+### Sample Output
+
 ```text
 Player P1:
 Risk Score → 0
@@ -143,14 +148,14 @@ Matchmaking Engine (Upcoming)
 - Unity
 - Pure C#
 - Object-Oriented Design
-- Modular System Architecture
+- Modular Architecture
 
 ---
 
 # Upcoming Improvements
 
 - Matchmaking Engine
-- Better hand strength evaluation
+- Better hand evaluation logic
 - Community card impact analysis
 - Decision quality scoring
 - UI dashboard visualization
@@ -159,11 +164,11 @@ Matchmaking Engine (Upcoming)
 
 # Why This Matters
 
-This project demonstrates how gameplay systems can evolve beyond gameplay mechanics into:
+This project demonstrates how gameplay systems can evolve beyond core gameplay mechanics into:
 
 - Player intelligence systems
-- Fairness systems
 - Behavioral analytics systems
+- Fairness systems
 - Competitive gaming integrity systems
 
 Built to explore challenges similar to modern competitive gaming platforms.
