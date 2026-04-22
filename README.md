@@ -4,20 +4,20 @@ A poker-based game intelligence prototype built using Unity + Pure C# architectu
 
 ---
 
-## Problem Statement
+## Why This Project?
 
-Competitive gaming platforms often struggle with:
+Modern competitive gaming platforms face challenges like:
 
 - Detecting suspicious gameplay behavior
-- Understanding player decision patterns
+- Identifying bot-like patterns
+- Understanding player decision quality
 - Ensuring fair matchmaking
-- Preventing bot-like gameplay behavior
 
-This project explores how decision intelligence systems can improve fairness and integrity in competitive poker environments.
+This project explores how player intelligence systems can improve fairness and integrity in competitive poker ecosystems.
 
 ---
 
-# System Architecture
+# Current System Architecture
 
 ## Core Poker Engine
 - Deck generation
@@ -29,36 +29,23 @@ This project explores how decision intelligence systems can improve fairness and
 
 ## Decision Intelligence Layer
 - Hand strength evaluation
-- Dynamic player decision engine
+- Dynamic decision engine
 - Action logging
 
-Tracks actions like:
-- Fold
-- Call
-- Raise
+Example output:
 
-Example:
-
-```json
-{
-  "playerId": "P1",
-  "action": "Raise",
-  "handStrength": 0.8,
-  "stage": "Flop"
-}
-```
+Player P1 → Raise → Hand Strength: 0.8
 
 ---
 
 ## Player Behavior Analytics
 Tracks:
 
-- Aggression score
-- Fold rate
-- Play style classification
+- Aggression Score
+- Fold Rate
+- Player Style Classification
 
 Example:
-
 - Aggressive
 - Balanced
 - Passive
@@ -66,26 +53,22 @@ Example:
 ---
 
 ## Fairness Engine
-Detects suspicious players by analyzing:
+Detects suspicious behavior using:
 
-- Excessive aggressive behavior
-- Unnaturally consistent decisions
-- Risk score generation
+- Risk scoring
+- Over-aggressive behavior detection
+- Consistency tracking
 
 Example:
-
-Player P2:
-- Aggression Score: 0.8
-- Risk Score: 0.5
-- Flagged as Suspicious
+Player P2 → Suspicious
 
 ---
 
 ## Upcoming
 - Matchmaking Engine
-- Better hand evaluator
+- Better hand evaluation logic
 - Community card impact analysis
-- UI visualization dashboard
+- Dashboard visualization
 
 ---
 
@@ -98,8 +81,19 @@ Player P2:
 
 ---
 
-# Why This Project
+# Example Output
 
-I wanted to explore how modern competitive gaming systems can move beyond gameplay mechanics and use player intelligence systems to improve fairness, integrity, and matchmaking.
+Player P1:
+Aggression → 0.4  
+Risk Score → 0  
 
-This project aligns closely with real-world competitive gaming challenges.
+Player P2:
+Aggression → 0.8  
+Risk Score → 0.5  
+Suspicious → True
+
+---
+
+# Why This Matters
+
+This project demonstrates how gameplay systems can evolve into player intelligence systems focused on fairness, integrity, and behavioral modeling.
