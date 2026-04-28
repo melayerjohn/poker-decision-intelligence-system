@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{4DCE7885-6D00-D55F-6830-957FD797D108}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/UnityLayer/PokerGameRunner.cs">
+    <Files>
+      <File FileName="Assets/Script/System/Matchmaking/MatchResult.cs" Line="8" Column="30" />
+      <File FileName="Assets/Script/System/Matchmaking/MatchmakingEngine.cs" Line="21" Column="39" />
+      <File FileName="Assets/Script/UnityLayer/PokerGameRunner.cs" Line="201" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f287211e-ea7d-4b82-9593-57618c68e592" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
